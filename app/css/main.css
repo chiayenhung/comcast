@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.video_wrap {
+  text-align: center;
+}
+
+.mask img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wheel_container {
+  display: none;
+  text-align: center;
+}
+
+.wheel_container.active {
+  display: block;
+}
+
+.control_bar {
+  text-align: center;
+  margin: 10px 0;
+}

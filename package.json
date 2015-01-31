@@ -1,0 +1,27 @@
+{
+  "author": "Chia-Yen Hung",
+  "name": "comcast",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.10.5",
+    "npm":  "1.3.11"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6.2",
+    "express": "3.0.0rc5",
+    "mongoose": "~3.8.x"    
+  },
+  "devDependencies": {
+     "grunt": "~0.4.0rc7",
+     "grunt-contrib-clean": "~0.4.1",
+     "grunt-contrib-coffee": "~0.7.0",
+     "grunt-contrib-copy": "~0.4.1",
+     "grunt-contrib-watch": "~0.1.4",
+     "grunt-contrib-concat": "*",
+     "grunt-express": "~1.0.0-beta2",
+     "grunt-env": "0.4.0",
+     "request": "~2.21.0",
+     "request-json": "*"
+ }
+}

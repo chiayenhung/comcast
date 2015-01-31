@@ -1,0 +1,4 @@
+define(function(){var JST = {};
+JST['indexView'] = "<div class='form-inline control_bar'>  <div class='form-group'>    <label>Search Bar</label>    <input class='form-control search_bar' placeholder='search key word'>    <label>Sort By</label>    <select class='form-control sort_bar'>      <option>ID</option>      <option>Title</option>    </select>  </div></div><div class='video_container'></div><div class='wheel_container'>  <img src='img/ajax-loader.gif'></div>";
+JST['videoItemView'] = "<div>  <table class='header_field table'>    <th class='video_id col-md-3'><%= _id%></th>    <td class='video_title col-md-3'><%= title%></td>    <td class='video_desc col-md-3'><%= description%></td>    <td>      <img class='video_logo' src='<%= logo%>'></img>    </td>  </table>  <div class='video_wrap row'>    <video width='420' height='240' src='<%= url%>' preload='none' controls>    </video>  </div></div>";
+return JST;});
