@@ -1,5 +1,5 @@
 var fs = require ('fs');
-var Video = require('../models/Video');
+var Video = require('../models/video');
 var videoController = {};
 var ITEM_PER_PAGE = 6;
 
