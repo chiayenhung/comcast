@@ -11,6 +11,7 @@
 
       events: {
         'mousewheel .video_container': 'scrolling',
+        'DOMMouseScroll .video_container': 'scrolling',
         'keyup .search_bar': 'search',
         'change .sort_bar': 'sort'
       },
@@ -67,7 +68,7 @@
             $document = $(document);
         if (copy.stopped)
           return;
-        if (!copy.loading && $window.scrollTop() + $window.height() > $document.height() - 100) {
+        if (!copy.loading && $window.scrollTop() + $window.height() > $document.height() - 200) {
           copy.load(true);
           copy.videos.lazyLoad(function (err, videos) {
             if (err) {
